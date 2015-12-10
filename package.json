@@ -1,0 +1,23 @@
+{
+  "name": "api-photos",
+  "version": "1.0.0",
+  "description": "Controle de fotos",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --quiet app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdmirRocha/api-photos.git"
+  },
+  "author": "Edmir <edmir@vstsistemas.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdmirRocha/api-photos/issues"
+  },
+  "homepage": "https://github.com/EdmirRocha/api-photos#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
