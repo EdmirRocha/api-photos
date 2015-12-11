@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-	users: require('./users')
+	users: require('../photos/photos_controllers.js')
 };
 

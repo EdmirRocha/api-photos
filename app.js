@@ -2,6 +2,9 @@
 
 let express = require('express');
 let app = express();
+let routers = require('./routers/index.js');
+let config = require('./config.js');
+let mongoose = require('mongoose');
 
 
 // Defini localizacao de arquivos estaticos
